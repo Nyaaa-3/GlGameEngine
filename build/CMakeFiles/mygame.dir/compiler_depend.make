@@ -35,7 +35,6 @@ CMakeFiles/mygame.dir/src/camera.c.o: /home/asdf/Juegos/C/AnotherGameGl/src/came
   /home/asdf/Juegos/C/AnotherGameGl/include/object.h \
   /home/asdf/Juegos/C/AnotherGameGl/include/object.h \
   /home/asdf/Juegos/C/AnotherGameGl/include/collitions.h \
-  /home/asdf/Juegos/C/AnotherGameGl/include/engine.h \
   /home/asdf/Juegos/C/AnotherGameGl/include/transform.h \
   /usr/include/GLFW/glfw3.h \
   /usr/include/alloca.h \
@@ -852,6 +851,10 @@ CMakeFiles/mygame.dir/src/transform.c.o: /home/asdf/Juegos/C/AnotherGameGl/src/t
 
 /usr/include/bits/fp-logb.h:
 
+/home/asdf/Juegos/C/AnotherGameGl/include/engine.h:
+
+CMakeFiles/mygame.dir/src/object.c.o:
+
 /usr/include/cglm/io.h:
 
 /usr/include/cglm/mat3x2.h:
@@ -876,14 +879,6 @@ CMakeFiles/mygame.dir/src/transform.c.o: /home/asdf/Juegos/C/AnotherGameGl/src/t
 
 /usr/include/cglm/ivec4.h:
 
-CMakeFiles/mygame.dir/src/object.c.o:
-
-/home/asdf/Juegos/C/AnotherGameGl/include/engine.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mmintrin.h:
-
-/usr/lib/libm.so:
-
 /usr/include/bits/select.h:
 
 /usr/include/cglm/clipspace/view_rh_no.h:
@@ -904,6 +899,10 @@ CMakeFiles/mygame.dir/src/object.c.o:
 
 /usr/include/cglm/aabb2d.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mmintrin.h:
+
+/usr/lib/libm.so:
+
 /home/asdf/Juegos/C/AnotherGameGl/src/camera.c:
 
 /usr/include/cglm/affine2d.h:
@@ -922,15 +921,13 @@ CMakeFiles/mygame.dir/src/object.c.o:
 
 /usr/lib/libdl.a:
 
+/usr/include/bits/types/struct_timeval.h:
+
 /usr/include/math.h:
 
 CMakeFiles/mygame.dir/src/engine.c.o:
 
 /usr/include/bits/floatn-common.h:
-
-/usr/include/cglm/quat.h:
-
-/usr/lib/libcglm.so:
 
 /usr/lib/libc.so:
 
@@ -1030,8 +1027,6 @@ CMakeFiles/mygame.dir/src/collitions.c.o:
 
 /usr/include/cglm/mat3.h:
 
-/usr/include/bits/types/struct_timeval.h:
-
 /usr/include/bits/types/__FILE.h:
 
 /home/asdf/Juegos/C/AnotherGameGl/include/collitions.h:
@@ -1067,6 +1062,10 @@ CMakeFiles/mygame.dir/src/collitions.c.o:
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdalign.h:
 
 /usr/include/bits/types/struct_FILE.h:
+
+/usr/lib/libcglm.so:
+
+/usr/include/cglm/quat.h:
 
 /usr/lib/Scrt1.o:
 

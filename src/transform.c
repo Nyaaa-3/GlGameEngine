@@ -1,6 +1,5 @@
 #include <math.h>
 #include <stdio.h>
-#include <stdlib.h>
 #include "../include/object.h"
 #include "../include/collitions.h"
 

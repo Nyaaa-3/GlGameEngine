@@ -1,9 +1,12 @@
 CMakeFiles/mygame.dir/src/camera.c.o: \
  /home/asdf/Juegos/C/AnotherGameGl/src/camera.c \
  /usr/include/stdc-predef.h \
- /home/asdf/Juegos/C/AnotherGameGl/src/../include/engine.h \
- /home/asdf/Juegos/C/AnotherGameGl/external/glad/include/glad/glad.h \
- /home/asdf/Juegos/C/AnotherGameGl/external/glad/include/KHR/khrplatform.h \
+ /home/asdf/Juegos/C/AnotherGameGl/src/../include/transform.h \
+ /home/asdf/Juegos/C/AnotherGameGl/src/../include/collitions.h \
+ /home/asdf/Juegos/C/AnotherGameGl/src/../include/../include/object.h \
+ /home/asdf/Juegos/C/AnotherGameGl/src/../include/../include/../include/object.h \
+ /home/asdf/Juegos/C/AnotherGameGl/src/../include/camera.h \
+ /usr/include/cglm/cglm.h /usr/include/cglm/common.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -13,14 +16,8 @@ CMakeFiles/mygame.dir/src/camera.c.o: \
  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
  /usr/include/bits/time64.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
- /usr/include/bits/stdint-least.h /usr/include/GLFW/glfw3.h \
+ /usr/include/bits/stdint-least.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
- /home/asdf/Juegos/C/AnotherGameGl/src/../include/transform.h \
- /home/asdf/Juegos/C/AnotherGameGl/src/../include/collitions.h \
- /home/asdf/Juegos/C/AnotherGameGl/src/../include/../include/object.h \
- /home/asdf/Juegos/C/AnotherGameGl/src/../include/../include/../include/object.h \
- /home/asdf/Juegos/C/AnotherGameGl/include/camera.h \
- /usr/include/cglm/cglm.h /usr/include/cglm/common.h \
  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
  /usr/include/bits/waitstatus.h /usr/include/bits/floatn.h \
  /usr/include/bits/floatn-common.h /usr/include/sys/types.h \
@@ -91,5 +88,8 @@ CMakeFiles/mygame.dir/src/camera.c.o: \
  /usr/include/cglm/vec4.h /usr/include/cglm/sphere.h \
  /usr/include/cglm/ease.h /usr/include/cglm/curve.h \
  /usr/include/cglm/bezier.h /usr/include/cglm/ray.h \
- /usr/include/cglm/affine2d.h /usr/include/cglm/cam.h \
+ /usr/include/cglm/affine2d.h \
+ /home/asdf/Juegos/C/AnotherGameGl/external/glad/include/glad/glad.h \
+ /home/asdf/Juegos/C/AnotherGameGl/external/glad/include/KHR/khrplatform.h \
+ /usr/include/GLFW/glfw3.h /usr/include/cglm/cam.h \
  /usr/include/cglm/vec3.h /usr/include/cglm/mat4.h

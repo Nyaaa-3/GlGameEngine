@@ -1,7 +1,6 @@
-#include "../include/engine.h"
 #include "../include/transform.h"
 #include "../include/collitions.h"
-#include "camera.h"
+#include "../include/camera.h"
 #include <cglm/cam.h>
 #include <cglm/vec3.h>
 #include <cglm/mat4.h>
@@ -130,60 +129,6 @@ void inputXYZ(Camera *cam, GLFWwindow *window, float deltaTime){
         cooldown -= deltaTime;
 }
 
-
-
-/*float cooldown;
-float speedMult = 1;
-
-void inputXYZ(Camera *cam, GLFWwindow *window, float deltaTime){
-    const float speed = 0.04f;
-
-    
-    if(cooldown < 0){
-      cooldown = 0;
-      speedMult = 1;
-    }
-    if(cooldown != 0){
-      cooldown -= deltaTime;
-      if(speedMult > 1){
-        speedMult -= deltaTime * 30;
-      }
-      if(speedMult < 1){
-        speedMult = 1;
-      }
-
-    }
-    
-    // --- compute horizontal forward vector ---
-    vec3 fwd = { cam->front[0], 0.0f, cam->front[2] };
-    glm_normalize(fwd);
-
-    // --- compute horizontal right vector ---
-    vec3 right = { cam->right[0], 0.0f, cam->right[2] };
-    glm_normalize(right);
-
-    if ((glfwGetKey(window, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS) && cooldown == 0){
-      speedMult = 7;
-      cooldown = 0.8;
-    }
-    // Forward/backward (uses horizontal forward)
-    if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
-        glm_vec3_muladds(fwd,  speed * speedMult, cam->position);
-
-    if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
-        glm_vec3_muladds(fwd, -speed * speedMult, cam->position);
-
-    // Strafe (uses horizontal right)
-    if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
-        glm_vec3_muladds(right,  speed * speedMult, cam->position);
-
-    if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
-        glm_vec3_muladds(right, -speed * speedMult, cam->position);
-
-    // Vertical movement (world space)
-    if (glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS)
-      CamJump(4.2f);
-}*/ 
 
 void camera_init(Camera *cam, float aspect){
     glm_vec3_copy((vec3){0.0f, 10.0f, 0.0f}, cam->position);

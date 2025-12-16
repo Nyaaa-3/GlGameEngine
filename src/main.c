@@ -1,7 +1,4 @@
-#include "../include/transform.h"
 #include "../include/engine.h"
-#include "../include/object.h"
-#include "../include/renderer.h"
 #define WIDTH 1920 
 #define HEIGHT 1080
 

@@ -2,7 +2,6 @@
 #include <GLFW/glfw3.h>
 #include "../include/camera.h"
 #include "../include/object.h"
-#include "../include/transform.h"
 #include "../include/renderer.h"
 #include <stdio.h>
 #include <stdlib.h>

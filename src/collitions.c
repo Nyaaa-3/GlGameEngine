@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include "../include/object.h"
-#include "../include/camera.h"
-#include "../include/engine.h"
 #include "../include/collitions.h"
 #include "../include/transform.h"
 
