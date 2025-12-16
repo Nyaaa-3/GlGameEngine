@@ -9,7 +9,7 @@ float camEstests[6];
 int getGround(float points[3]){
   int possible[MAX_OBJECTS];
   int counter = 0;
-  int ground;
+  int ground ;
   int collide;
 
   for(int i = 0; i < objectCount; i++){
