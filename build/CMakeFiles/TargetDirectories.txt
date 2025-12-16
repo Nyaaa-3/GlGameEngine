@@ -1,0 +1,6 @@
+/home/asdf/Juegos/C/AnotherGameGl/build/CMakeFiles/mygame.dir
+/home/asdf/Juegos/C/AnotherGameGl/build/CMakeFiles/edit_cache.dir
+/home/asdf/Juegos/C/AnotherGameGl/build/CMakeFiles/rebuild_cache.dir
+/home/asdf/Juegos/C/AnotherGameGl/build/external/glad/CMakeFiles/glad.dir
+/home/asdf/Juegos/C/AnotherGameGl/build/external/glad/CMakeFiles/edit_cache.dir
+/home/asdf/Juegos/C/AnotherGameGl/build/external/glad/CMakeFiles/rebuild_cache.dir

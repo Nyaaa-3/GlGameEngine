@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/asdf/Juegos/C/AnotherGameGl/build/cmake_install.cmake",
+		"/home/asdf/Juegos/C/AnotherGameGl/build/external/glad/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
